@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <style>
+    /* Reset margins and set box sizing */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Full height white page without horizontal scroll */
+    html, body {
+      width: 100%;
+      min-height: 100vh;
+      background-color: #ffffff;
+      overflow-x: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Container for perfect centering on large screens and full-width on mobile */
+    .container {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Fully responsive image scaling down to smallest screen sizes (200px, 250px, etc.) */
+    .menu-img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <img src="menu.jpg" alt="Menu Deals" class="menu-img">
+  </main>
+</body>
+</html>
